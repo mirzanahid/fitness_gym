@@ -1,10 +1,15 @@
 .exercises{
     padding-left: 10%;
-    padding-top: 100px;
+    background-color: #E6E7E9;
+
 }
 .logo{
     font-family: Roboto;
     font-size: 32px;
    font-weight: 600;
     color: #2A3556;
+}
+.exercise-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
