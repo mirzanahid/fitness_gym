@@ -1,7 +1,9 @@
 .exercise-details {
     background-color: rgba(16%, 21%, 33%, .9);
     padding: 30px;
-   
+    height: 100vh;
+    position: sticky;
+     top: 0;
 }
 
 .profile {
@@ -103,6 +105,8 @@
     background-color: rgba(255, 255, 255, .2);
     padding: 8px;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -152,4 +156,95 @@
     border-radius: 5px;
     margin-top: 40px;
     cursor: pointer;
+}
+/* Responsive for mobile device */
+@media screen and (max-width: 419.98px){
+    .exercise-details {
+        padding: 20px;
+        height: 650px;
+
+    }
+    .profile{
+        width: auto;
+    }
+    .profile{
+        width: auto;
+    }
+    .personal-info{
+        width: auto;
+    }
+    .break .break-btn-container {
+        width: auto;
+    }
+}
+
+
+/* Responsive for mobile device */
+@media screen and (min-width: 420px) and (max-width: 575.98px){
+    .exercise-details {
+        padding: 30px 20px;
+        height: 650px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .profile{
+        width: auto;
+        justify-content: start;
+    }
+    .profile-info{
+        margin-left: 30px;
+    }
+    .personal-info {
+        width: auto;
+        padding: 20px 50px;
+    }
+    .profile{
+        width: auto;
+    }
+    .personal-info{
+        width: auto;
+    }
+    .break .break-btn-container {
+	width: auto;
+	padding: 20px 60px;
+}
+}
+/* Responsive for mobile-landscape device */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .exercise-details {
+        padding: 30px 20px;
+        height: 650px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .profile{
+        width: auto;
+        justify-content: start;
+    }
+    .profile-info{
+        margin-left: 30px;
+    }
+    .personal-info {
+        width: auto;
+        padding: 20px 50px;
+    }
+    .profile{
+        width: auto;
+    }
+    .personal-info{
+        width: auto;
+    }
+    .break .break-btn-container {
+	width: auto;
+	padding: 20px 60px;
+}
+}
+
+/* Responsive for tablet device */
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .exercise-details {
+        width: 250px;
+        padding: 10px;
+        height: 100vh;
+    }
 }

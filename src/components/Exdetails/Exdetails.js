@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {addToLocal, getFromLocal} from '../utilities/localStorage';
 import './Exdetails.css'
 
 const Exdetails = ({durations}) => {
+      const [breaks, setBreaks] = useState(getFromLocal())
+      
     let totalDuration= 0;
       for (const duration of durations){
         totalDuration+= duration.duration;
       }
+      const breakTime= (event) =>{
+        const value = event.target.value;
+        addToLocal(value)
+        setBreaks(getFromLocal())
+    }
+
     return (
         <div className='exercise-details'>
             <div className='profile'>
@@ -34,10 +43,10 @@ const Exdetails = ({durations}) => {
             <div className="break">
                 <h3 className='break-heading'>Add A Break</h3>
                 <div className='break-btn-container'>
-                    <a className='break-btn' href="#">10s</a>
-                    <a className='break-btn' href="#">20s</a>
-                    <a className='break-btn' href="#">30s</a>
-                    <a className='break-btn' href="#">40s</a>
+                    <button value={10} className='break-btn' onClick={breakTime}>10s</button>
+                    <button value={20} className='break-btn' onClick={breakTime}>20s</button>
+                    <button value={30} className='break-btn' onClick={breakTime}>30s</button>
+                    <button value={40} className='break-btn' onClick={breakTime}>40s</button>
                 </div>
             </div>
             <div className="details">
@@ -49,7 +58,7 @@ const Exdetails = ({durations}) => {
                 </div>
                 <div className='detail-container'>
                     <p className='detail-property'>Break time:</p>
-                    <span className='detial-value'>20 sec</span>
+                    <span className='detial-value'>{breaks} sec</span>
                 </div>
             </div>
 

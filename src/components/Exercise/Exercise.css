@@ -61,7 +61,6 @@
     border: none;
     outline: none;
     width: 260px;
-    margin-top: 30px;
     cursor: pointer;
     position: absolute;
     bottom: 20px;
@@ -69,11 +68,77 @@
 
 }
 
-
-@media screen and (max-width: 575.98px) {
+/* Responsvie for mobile device */
+@media screen and (max-width: 419.98px) {
     .exercise {
         width: auto;
         margin-bottom: 20px;
+        height: auto;
 
+    }
+
+    .required-time {
+        margin-bottom: 100px;
+    }
+
+    .add-list-button {
+
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+}
+
+/* Responsvie for mobile device */
+@media screen and (min-width: 420px) and (max-width: 575.98px) {
+    .exercise {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    .required-time {
+        margin-bottom: 100px;
+    }
+
+    .add-list-button {
+
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+
+}
+
+/* Responsvie for mobile-landscape device */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .exercise {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .required-time {
+        margin-bottom: 100px;
+    }
+
+    .add-list-button {
+       width: 380px;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+
+}
+
+/* Responsive for tablet device */
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .exercise {
+        width: auto;
+        background-color: #293654;
+        height: 570px;
+        border-radius: 5px;
+        position: relative;
     }
 }

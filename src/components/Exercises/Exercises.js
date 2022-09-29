@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Exdetails from '../Exdetails/Exdetails';
-import {getFromLocal, addToLocal} from '../utilities/localStorage';
 
 import Exercise from '../Exercise/Exercise';
 import './Exercises.css';
@@ -12,14 +11,7 @@ const Exercises = () => {
         fetch('gym.json')
         .then(res => res.json())
         .then(data => setExercises(data))
-    },[]);
-
-
-    useEffect(()=>{
-        const storedData =  getFromLocal()
-
-    },[])
-      
+    },[]); 
     const exerciseTime= (selectedItem)=>{
         const newDuration = [...durations, selectedItem]
         setDurations(newDuration)
