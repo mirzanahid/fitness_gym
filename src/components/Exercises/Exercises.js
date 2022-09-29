@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Exdetails from '../Exdetails/Exdetails';
 
 import Exercise from '../Exercise/Exercise';
+import Questions from '../Questions/Questions';
 import './Exercises.css';
 
 const Exercises = () => {
@@ -26,9 +27,9 @@ const Exercises = () => {
           {
             exercises.map(exercise =><Exercise key={exercise.id} exercise={exercise} handler = {exerciseTime}></Exercise> )
            }
-        
+           
           </div>
-            
+            <Questions></Questions>
            </div>
            <div className="exdetalis-container">
            <Exdetails durations={durations}></Exdetails>
