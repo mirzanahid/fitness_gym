@@ -7,10 +7,15 @@ import './Exercises.css';
 const Exercises = () => {
     return (
         <div className='exercises'>
-       <a className='logo' href="index.html">FITNESS-GYM</a>
-           <div className='exercise-container'>
-            <Exercise></Exercise>
-            <Exdetails></Exdetails>
+           <div className='exercise-main'>
+           <div className="exercise-container">
+           <a className='logo' href="index.html">FITNESS-GYM</a>
+           <Exercise></Exercise>
+            
+           </div>
+           <div className="exdetalis-container">
+           <Exdetails></Exdetails>
+           </div>
 
            </div>
         </div>
