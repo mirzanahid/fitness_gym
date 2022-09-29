@@ -1,32 +1,38 @@
-.question-main{
+.question-main {
     margin-top: 30px;
 }
-.question-single{
+
+.question-single {
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.question-title{
+
+.question-title {
     font-family: Roboto;
     font-size: 24px;
     font-weight: 700;
     color: #2A3556;
 }
-.question{
+
+.question {
     background-color: #2A3556;
     padding: 15px 30px;
 }
-.question h4{
+
+.question h4 {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
 }
+
 .question-ans {
-	background-color: rgba(16%, 21%, 33%, .8);
-	padding: 15px 30px;
+    background-color: rgba(16%, 21%, 33%, .8);
+    padding: 15px 30px;
 }
-.question-ans p{
+
+.question-ans p {
     font-family: Helvetica;
     font-size: 16px;
     font-weight: 400;
@@ -34,25 +40,28 @@
 
 
 }
-.question-ans ol li{
+
+.question-ans ol li {
     font-family: Helvetica;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
 }
-.pra-space{
+
+.pra-space {
     margin-bottom: 10px;
 }
 
 
 /* Responsive for mobile device */
-@media screen and (max-width: 575.98px){
+@media screen and (max-width: 575.98px) {
     .question-single {
         width: 100%;
     }
 }
+
 /* Responsive for mobile-landscape device */
-@media screen and (min-width: 576px) and (max-width: 767.98px){
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .question-single {
         width: 100%;
     }

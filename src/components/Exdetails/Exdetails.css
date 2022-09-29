@@ -163,11 +163,15 @@
     .exercise-details {
         padding: 20px;
         height: 650px;
-
     }
 
     .profile {
         width: auto;
+        justify-content: start;
+    }
+
+    .profile-info {
+        margin-left: 30px;
     }
 
     .profile {
@@ -265,7 +269,7 @@
         padding: 20px 15px;
         height: 100vh;
     }
-  
+
     .personal-info {
         width: auto;
         padding: 15px;
@@ -286,7 +290,7 @@
         padding: 20px 15px;
         height: 100vh;
     }
-  
+
     .personal-info {
         width: auto;
         padding: 15px;

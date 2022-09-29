@@ -1,33 +1,33 @@
 import React, { useState } from 'react';
-import {addToLocal, getFromLocal} from '../utilities/localStorage';
-import { ToastContainer, toast } from 'react-toastify';
+import { addToLocal, getFromLocal } from '../utilities/localStorage';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css'
 import './Exdetails.css'
 
-const Exdetails = ({durations}) => {
-      const [breaks, setBreaks] = useState(getFromLocal())
-      
-    let totalDuration= 0;
-      for (const duration of durations){
-        totalDuration+= duration.duration;
-      }
-      const breakTime= (event) =>{
+const Exdetails = ({ durations }) => {
+    const [breaks, setBreaks] = useState(getFromLocal())
+
+    let totalDuration = 0;
+    for (const duration of durations) {
+        totalDuration += duration.duration;
+    }
+    const breakTime = (event) => {
         const value = event.target.value;
         addToLocal(value)
         setBreaks(getFromLocal())
     }
-const activityComplete =()=> {
-   
-    toast.success('🦄Congrats!! For complete activity', {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
+    const activityComplete = () => {
+
+        toast.success('🦄Welldone!!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
         });
-}
+    }
     return (
         <div className='exercise-details'>
             <div className='profile'>

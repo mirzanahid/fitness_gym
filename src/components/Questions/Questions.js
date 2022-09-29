@@ -39,7 +39,7 @@ const Questions = () => {
                 </div>
             </div>
             <div className="question-single">
-                
+
                 <div className="question">
                     <h4>03 Apart getting data from API, What else we can do using useEffect?</h4>
                 </div>

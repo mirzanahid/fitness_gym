@@ -2,7 +2,7 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise = (props) => {
-    const {img, title, description, age, duration } = props.exercise;
+    const { img, title, description, age, duration } = props.exercise;
     return (
         <div className='exercise'>
             <div className='exercise-image'>
@@ -13,7 +13,7 @@ const Exercise = (props) => {
                 <p className='exercise-description'>{description}</p>
                 <div className="required-age">For Age: <span>{age.min}</span> - <span>{age.max}</span> </div>
                 <div className="required-time">Time required : <span>{duration}</span>s</div>
-                <button className='add-list-button' onClick={()=>props.handler(props.exercise)}>Add to list</button>
+                <button className='add-list-button' onClick={() => props.handler(props.exercise)}>Add to list</button>
             </div>
         </div>
     );

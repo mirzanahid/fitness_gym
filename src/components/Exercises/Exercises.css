@@ -7,7 +7,8 @@
     margin-bottom: 50px;
     display: inline-block;
 }
-.logo-icon{
+
+.logo-icon {
     width: 26px;
     height: 26px;
 }
@@ -139,6 +140,7 @@
     .exercise-container {
         padding-left: 15px;
     }
+
     .all-exercises {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
@@ -148,10 +150,11 @@
 }
 
 /* Responsive for laptop device */
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
     .exercise-container {
         padding-left: 15px;
     }
+
     .all-exercises {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
@@ -159,11 +162,13 @@
         margin-right: 15px;
     }
 }
+
 /* Responsive for desktop device */
-@media screen and (min-width: 1200px) and (max-width: 1399.98px){
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
     .exercise-container {
         padding-left: 5%;
     }
+
     .all-exercises {
         grid-template-columns: repeat(3, 1fr);
         row-gap: 20px;
@@ -173,18 +178,20 @@
 }
 
 /* for big screen */
-@media screen and (min-width: 1400px) and (max-width: 1599.98px){
+@media screen and (min-width: 1400px) and (max-width: 1599.98px) {
     .exercise-container {
         padding-left: 5%;
         padding-right: 5%;
     }
 }
+
 /* for big screen */
-@media screen and (min-width: 1450px) and (max-width: 3000.98px){
+@media screen and (min-width: 1450px) and (max-width: 3000.98px) {
     .exercise-container {
         padding-left: 10%;
         padding-right: 10%;
     }
+
     .all-exercises {
         row-gap: 40px;
         column-gap: 40px;
