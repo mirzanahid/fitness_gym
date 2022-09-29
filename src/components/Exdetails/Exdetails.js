@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import {addToLocal, getFromLocal} from '../utilities/localStorage';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css'
 import './Exdetails.css'
 
 const Exdetails = ({durations}) => {
@@ -14,7 +16,19 @@ const Exdetails = ({durations}) => {
         addToLocal(value)
         setBreaks(getFromLocal())
     }
-
+const activityComplete =()=> {
+   
+    toast.success('🦄Congrats!! For complete activity', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+    console.log('hello')
+}
     return (
         <div className='exercise-details'>
             <div className='profile'>
@@ -32,7 +46,7 @@ const Exdetails = ({durations}) => {
                     <span className='info-property'>Weight</span>
                 </div>
                 <div className='personal-info-single'>
-                    <h4 className='info-value'>6.5</h4>
+                    <h4 className='info-value'>6.5<span className='units'>inch</span> </h4>
                     <span className='info-property'>Height</span>
                 </div>
                 <div className='personal-info-single'>
@@ -62,7 +76,7 @@ const Exdetails = ({durations}) => {
                 </div>
             </div>
 
-            <button className='detail-complete-btn'>Activity Complete</button>
+            <button className='detail-complete-btn' onClick={activityComplete}>Activity Complete</button>
         </div>
     );
 };

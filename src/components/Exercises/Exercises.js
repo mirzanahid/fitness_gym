@@ -22,7 +22,7 @@ const Exercises = () => {
         <div className='exercises'>
            <div className='exercise-main'>
            <div className="exercise-container">
-           <a className='logo' href="index.html">FITNESS-GYM</a>
+           <a className='logo' href="index.html"> <img className='logo-icon' src="logo.svg" alt="logo" /> FITNESS-GYM</a>
           <div className='all-exercises'>
           {
             exercises.map(exercise =><Exercise key={exercise.id} exercise={exercise} handler = {exerciseTime}></Exercise> )
