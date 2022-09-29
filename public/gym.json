@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "title": "Push-Up",
+    "img": "https://media.istockphoto.com/photos/biracial-man-doing-push-ups-in-sportswear-on-fitness-mat-picture-id1094479308?k=20&m=1094479308&s=612x612&w=0&h=TbFOztOhPybbo6-HWxp9LM17Y0EYD08SMWLYweiLNr0=",
+    "age":{
+      "min": 18,
+      "max": 25
+    },
+    "duration": 30,
+    "description":"The push-up helps to build muscle and improve strength throughout the upper body. It targets the muscles in your chest, arms and the shoulders."
+  },
+  {
+    "id": "2",
+    "title": "Sit-up",
+    "img": "https://media.istockphoto.com/photos/sportswoman-exercising-abs-doing-crunches-at-home-picture-id1164930313?k=20&m=1164930313&s=612x612&w=0&h=k_cWiW5VD-_ZDEVlRuf-uoZmK5uBo8hzTgKExSHItsA=",
+    "age":{
+      "min": 18,
+      "max": 25
+    },
+    "duration": 30,
+    "description":"They use your body weight to strengthen and tone the core-stabilizing abdominal muscles. Situps work the rectus abdominis, transverse abdominis, and obliques in addition to your hip flexors, chest, and neck."
+  },
+  {
+    "id": "3",
+    "title": "Pull-Up",
+    "img": "https://media.istockphoto.com/photos/pull-ups-picture-id480174782?k=20&m=480174782&s=612x612&w=0&h=wUCTWLlOuq1X-Ei_Z7i98WLQct-9j4E3BDx7kW5LME8=",
+    "age":{
+      "min": 20,
+      "max": 30
+    },
+    "duration": 30,
+    "description":"In addition to working your back, pull-ups strengthen and sculpt your shoulders, forearms, and chest (pecs)."
+  },
+  {
+    "id": "4",
+    "title": "Deadlift",
+    "img": "https://media.istockphoto.com/photos/portrait-of-a-young-woman-doing-deadlifts-with-a-barbell-in-a-gym-picture-id1337511321?k=20&m=1337511321&s=612x612&w=0&h=ZK078T3-mkPtn8h6nqJcaPz5MPWq1Ixg_VwvJ6ksbTQ=",
+    "age":{
+      "min": 20,
+      "max": 30
+    },
+    "duration": 30,
+    "description":"Just like the deadlift, the barbell back squat hits just about every major muscle group there is in the body and is the king of leg-developing movements."
+  },
+  {
+    "id": "5",
+    "title": "Swiss Ball Rollout",
+    "img": "https://media.istockphoto.com/photos/women-doing-rollout-exercise-picture-id1333611494?k=20&m=1333611494&s=612x612&w=0&h=fncc4le-ZfGmwAPP5ZbRhPat8V4diSxhdElpQ4pEha0=",
+    "age":{
+      "min": 20,
+      "max": 30
+    },
+    "duration": 30,
+    "description":"The Swiss ball rollout is an essential part of anyone's quest for a six-pack. As you roll out on the ball, your abs are put under increasing tension, and any fitness expert knows that one of the secrets to building ripped."
+  },
+  {
+    "id": "6",
+    "title": "Bench Press",
+    "img": "https://media.istockphoto.com/photos/athletic-trainer-helping-sportsman-lifting-barbell-with-heavy-weight-picture-id1010019130?k=20&m=1010019130&s=612x612&w=0&h=n10F_Gym6C-rQODGkUA1I_AJfOS9xCpG_gc9RYLJHNk=",
+    "age":{
+      "min": 20,
+      "max": 30
+    },
+    "duration": 30,
+    "description":"This move is responsible for developing powerful, well-defined pecs, shoulders, and triceps, which lead to a more commanding presence, with or without a shirt on. "
+  }
+  
+ 
+]

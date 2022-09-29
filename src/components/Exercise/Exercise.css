@@ -1,40 +1,48 @@
-.exercise{
+.exercise {
     width: 300px;
     background-color: #293654;
-    height: 500px;
+    height: 570px;
     border-radius: 5px;
+    position: relative;
+
 }
-.exercise .exercise-image img{
+
+.exercise .exercise-image img {
     width: 100%;
     height: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.exercise .exercise-info{
+.exercise .exercise-info {
     padding: 20px;
+
 }
-.exercise .ex-title{
+
+.exercise .ex-title {
     font-family: Roboto;
     font-size: 22px;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 20px;
 }
-.exercise .exercise-description{
+
+.exercise .exercise-description {
     font-family: Helvetica;
     font-size: 16px;
     font-weight: 400;
     color: #CCCCCC;
 }
-.exercise .required-age{
+
+.exercise .required-age {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     color: #ffffff;
     margin-top: 25px;
 }
-.exercise .required-time{
+
+.exercise .required-time {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -42,7 +50,7 @@
     margin-top: 10px;
 }
 
-.add-list-button{
+.add-list-button {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
@@ -52,7 +60,20 @@
     border-radius: 5px;
     border: none;
     outline: none;
-    width: 100%;
+    width: 260px;
     margin-top: 30px;
     cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .exercise {
+        width: auto;
+        margin-bottom: 20px;
+
+    }
 }

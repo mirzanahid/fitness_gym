@@ -1,6 +1,8 @@
 .exercises {
+    width: 100%;
     padding-left: 10%;
-    background-color: #E6E7E9;
+
+
 
 }
 
@@ -18,3 +20,27 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+.all-exercises{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+@media screen and (max-width: 575.98px) { 
+    .exercises {
+       
+        padding-left: 0;
+    }
+    .logo {
+       margin-top: 30px;
+    }
+    .exercise-main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+.exercise-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+   
+ }
