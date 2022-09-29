@@ -3,7 +3,7 @@
     padding: 30px;
     height: 100vh;
     position: sticky;
-     top: 0;
+    top: 0;
 }
 
 .profile {
@@ -143,12 +143,12 @@
     color: #f2f2f2;
 }
 
-.detail-complete-btn{
+.detail-complete-btn {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
     background-color: #f2f2f2;
-    color: rgb(16%, 21%, 33% );
+    color: rgb(16%, 21%, 33%);
     border: none;
     outline: none;
     padding: 15px;
@@ -157,22 +157,27 @@
     margin-top: 40px;
     cursor: pointer;
 }
+
 /* Responsive for mobile device */
-@media screen and (max-width: 419.98px){
+@media screen and (max-width: 419.98px) {
     .exercise-details {
         padding: 20px;
         height: 650px;
 
     }
-    .profile{
+
+    .profile {
         width: auto;
     }
-    .profile{
+
+    .profile {
         width: auto;
     }
-    .personal-info{
+
+    .personal-info {
         width: auto;
     }
+
     .break .break-btn-container {
         width: auto;
     }
@@ -180,71 +185,96 @@
 
 
 /* Responsive for mobile device */
-@media screen and (min-width: 420px) and (max-width: 575.98px){
+@media screen and (min-width: 420px) and (max-width: 575.98px) {
     .exercise-details {
         padding: 30px 20px;
         height: 650px;
         width: auto;
         margin: 0 auto;
     }
-    .profile{
+
+    .profile {
         width: auto;
         justify-content: start;
     }
-    .profile-info{
+
+    .profile-info {
         margin-left: 30px;
     }
+
     .personal-info {
         width: auto;
         padding: 20px 50px;
     }
-    .profile{
+
+    .profile {
         width: auto;
     }
-    .personal-info{
+
+    .personal-info {
         width: auto;
     }
+
     .break .break-btn-container {
-	width: auto;
-	padding: 20px 60px;
+        width: auto;
+        padding: 20px 60px;
+    }
 }
-}
+
 /* Responsive for mobile-landscape device */
-@media screen and (min-width: 576px) and (max-width: 767.98px){
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .exercise-details {
         padding: 30px 20px;
         height: 650px;
         width: auto;
         margin: 0 auto;
     }
-    .profile{
+
+    .profile {
         width: auto;
         justify-content: start;
     }
-    .profile-info{
+
+    .profile-info {
         margin-left: 30px;
     }
+
     .personal-info {
         width: auto;
         padding: 20px 50px;
     }
-    .profile{
+
+    .profile {
         width: auto;
     }
-    .personal-info{
+
+    .personal-info {
         width: auto;
     }
+
     .break .break-btn-container {
-	width: auto;
-	padding: 20px 60px;
-}
+        width: auto;
+        padding: 20px 60px;
+    }
 }
 
 /* Responsive for tablet device */
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .exercise-details {
         width: 250px;
-        padding: 10px;
+        padding: 20px 15px;
         height: 100vh;
     }
+  
+    .personal-info {
+        width: auto;
+        padding: 15px;
+
+    }
+
+    .break .break-btn-container {
+        width: auto;
+
+    }
+
 }
