@@ -46,13 +46,9 @@ const Questions = () => {
                 <div className="question-ans">
                     <p>Here are some Use Case of useEffect hook:</p>
                     <ol>
-                        <li>Fetch API data</li>
                         <li>Validating input field</li>
                         <li>Live filtering</li>
                         <li>Trigger animation on new array value</li>
-                        <li>Update paragraph list on fetched API data update</li>
-                        <li>Updating fetched API data to get BTC updated price</li>
-
                     </ol>
                 </div>
             </div>

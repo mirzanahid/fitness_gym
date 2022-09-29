@@ -27,7 +27,6 @@ const activityComplete =()=> {
         draggable: true,
         progress: undefined,
         });
-    console.log('hello')
 }
     return (
         <div className='exercise-details'>
