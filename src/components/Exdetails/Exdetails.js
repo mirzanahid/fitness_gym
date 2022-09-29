@@ -1,7 +1,11 @@
 import React from 'react';
 import './Exdetails.css'
 
-const Exdetails = () => {
+const Exdetails = ({durations}) => {
+    let totalDuration= 0;
+      for (const duration of durations){
+        totalDuration+= duration.duration;
+      }
     return (
         <div className='exercise-details'>
             <div className='profile'>
@@ -41,7 +45,7 @@ const Exdetails = () => {
 
                 <div className='detail-container'>
                     <p className='detail-property'>Exercise time:</p>
-                    <span className='detial-value'>200 sec</span>
+                    <span className='detial-value'> <span>{totalDuration}</span> sec</span>
                 </div>
                 <div className='detail-container'>
                     <p className='detail-property'>Break time:</p>
