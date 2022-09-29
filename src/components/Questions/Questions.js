@@ -44,12 +44,7 @@ const Questions = () => {
                     <h4>03 Apart getting data from API, What else we can do using useEffect?</h4>
                 </div>
                 <div className="question-ans">
-                    <p>Here are some Use Case of useEffect hook:</p>
-                    <ol>
-                        <li>Validating input field</li>
-                        <li>Live filtering</li>
-                        <li>Trigger animation on new array value</li>
-                    </ol>
+                    <p><span className='quenstion-answares'>Ans:</span> After the component is built, useEffect can re-render the component again with some specific condition or state update. It can also re-render the component again for specific states that are used as a dependency of useEffect. We can also do the time-related work like settimeout. And also we can do more complicated stuff that will render the first time when the component builds. </p>
                 </div>
             </div>
         </div>

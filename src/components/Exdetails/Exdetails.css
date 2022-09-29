@@ -278,3 +278,24 @@
     }
 
 }
+
+/* Responsive for laptop device */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .exercise-details {
+        width: 250px;
+        padding: 20px 15px;
+        height: 100vh;
+    }
+  
+    .personal-info {
+        width: auto;
+        padding: 15px;
+
+    }
+
+    .break .break-btn-container {
+        width: auto;
+
+    }
+
+}
